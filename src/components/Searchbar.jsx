@@ -16,7 +16,7 @@ const weatherURL = (city)=>
 export const Searchbar = ()=>{
     const [loading,setLoading] = useState(false)
     const [autoCity,setAutoCity] = useState("")
-    const [city,setCity] = useState("bengaluru")
+    const [city,setCity] = useState("")
     const [clicked,setClicked] = useState(false)
     const [current,setCurrent] = useState()
     const [forecast,setForecast] = useState()
