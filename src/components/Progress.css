@@ -1,0 +1,38 @@
+.progress-box{
+    width: 90%;
+    height: 150px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    overflow-y: scroll;
+
+}
+.hour-box{
+    width: 100%;
+    border-bottom: 1px solid transparent;
+}
+.hour-data{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.data-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-time{
+    font-size: 14px;
+    font-weight: 700;
+}
+.data-temp{
+    font-size: 14px;
+    font-weight: 700;
+}
+.hour-temp{
+    width: 70%;
+    margin: auto;
+    padding: 2px;
+}
